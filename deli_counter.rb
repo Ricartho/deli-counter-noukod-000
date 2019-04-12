@@ -16,5 +16,7 @@ def take_a_number(katz_deli,name)
   if katz_deli.empty?
     katz_deli <<  "Ada"
     puts "Welcome, #{katz_deli[0]}. You are number 1 in line."
+  elsif !katz_deli.empty?
+    katz_deli << name 
   end
 end
