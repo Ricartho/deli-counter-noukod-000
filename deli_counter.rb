@@ -18,5 +18,6 @@ def take_a_number(katz_deli,name)
     puts "Welcome, #{katz_deli[0]}. You are number 1 in line."
   elsif !katz_deli.empty?
     katz_deli << name 
+    puts   "Welcome, #{name}. You are number #{katz_deli.size.to_i + 1} in line."
   end
 end
