@@ -13,5 +13,8 @@ def line(katz_deli)
 end 
 
 def take_a_number(katz_deli,name)
-  katz_deli << "Ada" if katz_deli.empty?
+  if katz_deli.empty?
+    name = "Ada"
+    puts "Welcome, #{name}. You are number 1 in line."
+  end
 end
