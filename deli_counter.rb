@@ -25,8 +25,8 @@ end
 def now_serving(katz_deli)
   puts "There is nobody waiting to be served!" if katz_deli.empty?
   if !katz_deli.empty?
-    katz_deli.unshift
+    
     puts  "Currently serving #{katz_deli[0]}."
-  
+      katz_deli.unshift
   end 
 end 
